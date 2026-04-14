@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="meta.title">Portfólio | Automação e PHP</title>
+  <meta
+    data-i18n-attr="content:meta.description"
+    name="description"
+    content="Portfólio profissional com projetos de automação de processos, integrações e desenvolvimento web em PHP."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero" id="inicio">
+      <nav class="topbar">
+        <a class="brand" href="#inicio">Dhionatas.dev</a>
+        <div class="topbar-actions">
+          <button class="language-toggle" type="button" aria-label="Switch language">
+            English version
+          </button>
+          <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu" data-i18n="nav.menu">
+            Menu
+          </button>
+        </div>
+        <div class="nav-links" id="menu">
+          <a href="#projetos" data-i18n="nav.projects">Projetos</a>
+          <a href="#servicos" data-i18n="nav.services">Serviços</a>
+          <a href="#sobre" data-i18n="nav.about">Sobre</a>
+          <a href="#contato" data-i18n="nav.contact">Contato</a>
+        </div>
+      </nav>
+
+      <section class="hero-content">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="hero.eyebrow">Automação de processos • PHP • Integrações</p>
+          <h1 data-i18n="hero.title">Desenvolvo soluções que reduzem trabalho manual e organizam operações com mais velocidade.</h1>
+          <p class="hero-text" data-i18n="hero.text">
+            Portfólio voltado para automações operacionais, rotinas com planilhas, integrações com portais
+            e desenvolvimento de páginas e sistemas web em PHP.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projetos" data-i18n="hero.ctaProjects">Ver projetos</a>
+            <a class="button button-secondary" href="#contato" data-i18n="hero.ctaContact">Falar comigo</a>
+          </div>
+          <ul class="hero-highlights" aria-label="Destaques principais" data-i18n-attr="aria-label:hero.highlightsLabel">
+            <li data-i18n="hero.highlight1">Automação com Playwright, Python e Excel</li>
+            <li data-i18n="hero.highlight2">Websites, painéis e sistemas internos em PHP</li>
+            <li data-i18n="hero.highlight3">Foco em ganho operacional e redução de erros</li>
+          </ul>
+        </div>
+
+        <aside class="hero-panel">
+          <p class="panel-label" data-i18n="summary.label">Resumo do perfil</p>
+          <div class="metric-card">
+            <span class="metric-value">2+</span>
+            <span class="metric-label" data-i18n="summary.metric1">frentes de automação já estruturadas</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-value">PHP</span>
+            <span class="metric-label" data-i18n="summary.metric2">para páginas, sistemas internos e manutenção web</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-value">Excel + Portal</span>
+            <span class="metric-label" data-i18n="summary.metric3">integrações com etapas operacionais do dia a dia</span>
+          </div>
+        </aside>
+      </section>
+    </header>
+
+    <main>
+      <section class="section section-grid" id="projetos">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="projects.label">Projetos</p>
+          <h2 data-i18n="projects.title">Cases com foco prático, resultado e contexto técnico.</h2>
+          <p data-i18n="projects.text">
+            Os blocos abaixo já estão preenchidos com base nos fluxos encontrados neste workspace.
+            Você pode trocar nomes, métricas e imagens depois.
+          </p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card featured">
+            <div class="project-badge" data-i18n="project1.badge">Automação operacional</div>
+            <h3 data-i18n="project1.title">Fluxo Whirlpool de consulta, download e disparo por e-mail</h3>
+            <p data-i18n="project1.text">
+              Automação para navegar em portal, consultar documentos por transporte, baixar arquivos e
+              preparar o envio por e-mail com apoio de planilhas e regras de negócio.
+            </p>
+            <ul class="tag-list">
+              <li>Python</li>
+              <li>Playwright</li>
+              <li>Excel</li>
+              <li>Outlook</li>
+            </ul>
+            <dl class="project-details">
+              <div>
+                <dt data-i18n="project.labels.problem">Problema</dt>
+                <dd data-i18n="project1.problem">Processo repetitivo com troca de planta, busca manual de documentos e comunicação operacional.</dd>
+              </div>
+              <div>
+                <dt data-i18n="project.labels.solution">Solução</dt>
+                <dd data-i18n="project1.solution">Fluxo automatizado com reaproveitamento de sessão, downloads e envio assistido por mapa de e-mails.</dd>
+              </div>
+              <div>
+                <dt data-i18n="project.labels.highlight">Destaque</dt>
+                <dd data-i18n="project1.highlight">Reduz tempo manual e melhora consistência do processo.</dd>
+              </div>
+            </dl>
+          </article>
+
+          <article class="project-card">
+            <div class="project-badge" data-i18n="project2.badge">Cadastro automatizado</div>
+            <h3 data-i18n="project2.title">Cadastro de coletas SSW com retorno automático de código</h3>
+            <p data-i18n="project2.text">
+              Rotina para leitura de planilha, preenchimento de dados em portal, captura do código gerado e
+              gravação imediata do resultado na base operacional.
+            </p>
+            <ul class="tag-list">
+              <li>Python</li>
+              <li>Playwright</li>
+              <li>OpenPyXL</li>
+              <li>Validação</li>
+            </ul>
+            <dl class="project-details">
+              <div>
+                <dt data-i18n="project.labels.problem">Problema</dt>
+                <dd data-i18n="project2.problem">Lançamento manual de coletas com risco de erro e retrabalho.</dd>
+              </div>
+              <div>
+                <dt data-i18n="project.labels.solution">Solução</dt>
+                <dd data-i18n="project2.solution">Processamento linha a linha com validações, tratamento de falhas e persistência dos códigos.</dd>
+              </div>
+              <div>
+                <dt data-i18n="project.labels.highlight">Destaque</dt>
+                <dd data-i18n="project2.highlight">Facilita escalabilidade de operações baseadas em planilha.</dd>
+              </div>
+            </dl>
+          </article>
+
+          <article class="project-card">
+            <div class="project-badge" data-i18n="project3.badge">Automação operacional</div>
+            <h3 data-i18n="project3.title">Automação de sistemas operacionais e de transporte</h3>
+            <p data-i18n="project3.text">
+              Automações para baixa de relatórios, lançamentos de ocorrências no SSW, extração de dados e
+              criação de dashboards para acompanhamento operacional.
+            </p>
+            <ul class="tag-list">
+              <li>Python</li>
+              <li>Playwright</li>
+              <li>Excel</li>
+              <li>Dashboards</li>
+            </ul>
+            <dl class="project-details">
+              <div>
+                <dt data-i18n="project.labels.problem">Problema</dt>
+                <dd data-i18n="project3.problem">Equipes operacionais lidam com relatórios, ocorrências e consultas manuais em sistemas de transporte, o que consome tempo e aumenta o risco de falhas.</dd>
+              </div>
+              <div>
+                <dt data-i18n="project.labels.solution">Solução</dt>
+                <dd data-i18n="project3.solution">Desenvolvimento de rotinas automatizadas para baixar relatórios, lançar informações no SSW, extrair dados e organizar indicadores para análise.</dd>
+              </div>
+              <div>
+                <dt data-i18n="project.labels.highlight">Destaque</dt>
+                <dd data-i18n="project3.highlight">Centraliza tarefas repetitivas, melhora visibilidade da operação e cria base para decisões mais rápidas.</dd>
+              </div>
+            </dl>
+          </article>
+        </div>
+      </section>
+
+      <section class="section services" id="servicos">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="services.label">Serviços</p>
+          <h2 data-i18n="services.title">O tipo de trabalho que esse portfólio comunica de forma clara.</h2>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card">
+            <h3 data-i18n="services.card1.title">Automação de processos</h3>
+            <p data-i18n="services.card1.text">Rotinas para tarefas repetitivas, portais internos, consultas, downloads, preenchimentos e envio de informações.</p>
+          </article>
+          <article class="service-card">
+            <h3 data-i18n="services.card2.title">Sistemas e páginas em PHP</h3>
+            <p data-i18n="services.card2.text">Desenvolvimento e manutenção de páginas institucionais, áreas restritas, formulários e pequenas aplicações web.</p>
+          </article>
+          <article class="service-card">
+            <h3 data-i18n="services.card3.title">Integração com planilhas e operação</h3>
+            <p data-i18n="services.card3.text">Leitura e escrita em Excel, organização de fluxos, validações e apoio a times administrativos e logísticos.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section about" id="sobre">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="about.label">Sobre</p>
+          <h2 data-i18n="about.title">Perfil técnico com foco em utilidade real.</h2>
+        </div>
+
+        <div class="about-layout">
+          <p data-i18n="about.text1">
+            Trabalho com soluções que ajudam equipes a economizar tempo, padronizar etapas e reduzir tarefas
+            manuais. Meu foco está em automações de processos, manipulação de dados operacionais e criação de
+            páginas e sistemas web em PHP que resolvem necessidades do dia a dia.
+          </p>
+          <p data-i18n="about.text2">
+            Este portfólio foi pensado para ser direto: mostrar o problema, a solução aplicada, a stack usada e
+            o impacto percebido no processo.
+          </p>
+        </div>
+      </section>
+
+      <section class="section contact" id="contato">
+        <div class="contact-card">
+          <div>
+            <p class="eyebrow" data-i18n="contact.label">Contato</p>
+            <h2 data-i18n="contact.title">Vamos transformar uma rotina manual em um processo mais simples.</h2>
+          </div>
+          <div class="contact-links">
+            <a href="mailto:dhiow04@gmail.com">dhiow04@gmail.com</a>
+            <a href="https://github.com/souza041" target="_blank" rel="noreferrer">github.com/souza041</a>
+            <a href="https://www.linkedin.com/in/dfsouza041/" target="_blank" rel="noreferrer">linkedin.com/in/dfsouza041</a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <footer class="site-footer">
+    <p data-i18n="footer.text">&copy; 2026 Dhionatas.dev. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
